@@ -1,9 +1,11 @@
-code,item,price= map(int,(input().split(" ")),int(input().split(" ")),float(input().split(" ")))
+x,y,z = input().split()
+x,y,z = int(x),int(y),float(z)
 
-code1,item1,price1=map(int(input().split(" ")),int(input().split(" ")),float(input().split(" ")))
+x1,y1,z1 = input().split()
+x1,y1,z1 = int(x1),int(y1),float(z1)
 
-grand=item*price
-grand2=item1*price1
+grand = y * z
+grand2 = y1 * z1
 
-tgrand=grand+grand2
-print("VALOR A PAGAR: R$ %.2f"%tgrand)
+tgrand = grand + grand2
+print("VALOR A PAGAR: R$ %.2f" %tgrand)
