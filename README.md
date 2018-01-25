@@ -1,4 +1,4 @@
-# URI Programming Problem Solution with Python 3
+# URI Programming Problems Solution with Python 3
 
 ## Getting Started
 
