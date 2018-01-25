@@ -1,9 +1,9 @@
 def math():
     a = int(input())
+    a = str(a)
 
-    result = (a * 2)
-
-    print(str(result) + " minutos")
+    if str('0') in a:
+        print('5')
 
 
 if __name__ == '__main__':

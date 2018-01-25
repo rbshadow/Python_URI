@@ -1,9 +1,15 @@
-a=float(input())
-b=float(input())
-c=float(input())
-aa=a*2
-bb=b*3
-cc=c*5
-final=(aa+bb+cc)/(2+3+5)
+def math():
+    a = float(input())
+    b = float(input())
+    c = float(input())
 
-print("MEDIA = %.1f"%final)
+    update_a = a * 2
+    update_b = b * 3
+    update_c = c * 5
+
+    result = ((update_a + update_b + update_c) / 10.0).__format__('.1f')
+    print('MEDIA =', result)
+
+
+if __name__ == '__main__':
+    math()

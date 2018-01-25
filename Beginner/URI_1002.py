@@ -1,6 +1,11 @@
-pi=3.14159
-r=float(input())
-c=float(r*r)
-cat=float(c*pi)
-final=round(cat,4)
-print("A=%.4f"%final)
+
+def math():
+    r = float(input())
+    pi = 3.14159
+    r = r*r
+    result =( r * pi ).__format__('.4f')
+    print("A=",result,sep="")
+
+
+if __name__ == '__main__':
+    math()

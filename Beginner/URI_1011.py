@@ -1,7 +1,11 @@
-value=float(input())
+def math():
+    r = float(input())
+    r = r**3
+    pi = 3.14159
+    result = ((4 / 3) * pi * r).__format__('.3f')
 
-up=value**3
-pi=3.14159
-final=(4.0/3)*up*pi
+    print('VOLUME =', result)
 
-print("VOLUME = %.3f"%final)
+
+if __name__ == '__main__':
+    math()

@@ -1,30 +1,37 @@
-a=int(input())
+def math():
+    taka = int(input())
 
-hun=a/100
-hunfinal=a%100
+    hundred = (taka / 100)
+    hundred = int(hundred)
 
-fif=hunfinal/50
-fiffinal=hunfinal%50
+    fifty = ((taka % 100) / 50)
+    fifty = int(fifty)
 
-twen=fiffinal/20
-twenfinal=fiffinal%20
+    twenty = (((taka % 100) % 50) / 20)
+    twenty = int(twenty)
 
-ten=twenfinal/10
-tenfinal=twenfinal%10
+    ten = ((((taka % 100) % 50) % 20) / 10)
+    ten = int(ten)
 
-five=tenfinal/5
-fivefinal=tenfinal%5
+    five = (((((taka % 100) % 50) % 20) % 10) / 5)
+    five = int(five)
 
-two=fivefinal/2
-twofinal=fivefinal%2
+    two = ((((((taka % 100) % 50) % 20) % 10) % 5) / 2)
+    two = int(two)
 
-one=twofinal/1
+    one = (((((((taka % 100) % 50) % 20) % 10) % 5) % 2) / 1)
+    one = int(one)
 
-print("%d"%a)
-print("%d nota(s) de R$ 100,00"%hun)
-print("%d nota(s) de R$ 50,00"%fif)
-print("%d nota(s) de R$ 20,00"%twen)
-print("%d nota(s) de R$ 10,00"%ten)
-print("%d nota(s) de R$ 5,00"%five)
-print("%d nota(s) de R$ 2,00"%two)
-print("%d nota(s) de R$ 1,00"%one)
+    print(str(taka) + '\n' +
+          str(hundred) + ' nota(s) de R$ 100,00' + '\n' +
+          str(fifty) + ' nota(s) de R$ 50,00' + '\n' +
+          str(twenty) + ' nota(s) de R$ 20,00' + '\n' +
+          str(ten) + ' nota(s) de R$ 10,00' + '\n' +
+          str(five) + ' nota(s) de R$ 5,00' + '\n' +
+          str(two) + ' nota(s) de R$ 2,00' + '\n' +
+          str(one) + ' nota(s) de R$ 1,00'
+          )
+
+
+if __name__ == '__main__':
+    math()

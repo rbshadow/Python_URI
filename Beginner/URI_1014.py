@@ -1,6 +1,10 @@
-i=int(input())
-f=float(input())
+def math():
+    distance = int(input())
+    fuel = float(input())
 
-final=i/f
+    result = (distance / fuel).__format__('.3f')
+    print(str(result) + ' km/l')
 
-print("%.3f km/l"%final)
+
+if __name__ == '__main__':
+    math()

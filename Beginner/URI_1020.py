@@ -1,10 +1,20 @@
-inp=int(input())
+def math():
+    days = int(input())
+
+    year = (days / 365)
+    year = int(year)
+
+    month = ((days % 365) / 30)
+    month = int(month)
+
+    day = ((days % 365) % 30)
+
+    print(
+        str(year) + ' ano(s)\n' +
+        str(month) + ' mes(es)\n' +
+        str(day) + ' dia(s)'
+    )
 
 
-year=inp/365
-month=(inp%365)/30
-day=(inp%365)%30
-
-print("%d ano(s)"%year)
-print("%d mes(es)"%month)
-print("%d dia(s)"%day)
+if __name__ == '__main__':
+    math()

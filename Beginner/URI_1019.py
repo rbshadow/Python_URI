@@ -1,9 +1,17 @@
-inp=int(input())
+def math():
+    second = int(input())
 
-hour=inp/3600
-minu=(inp%3600)/60
-sec=(inp%3600)%60
+    hours = (second / 3600)
+    hours = int(hours)
 
-print("%d:"%hour,end="")
-print("%d:"%minu,end="")
-print("%d"%sec)
+    minutes = ((second % 3600) / 60)
+    minutes = int(minutes)
+
+    second = ((second % 60) % 60)
+    second = int(second)
+
+    print(hours, minutes, second, sep=':')
+
+
+if __name__ == '__main__':
+    math()

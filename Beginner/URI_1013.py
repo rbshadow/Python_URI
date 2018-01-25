@@ -1,5 +1,10 @@
-a,b,c=map(int,input().strip().split(" "))
+def math():
+    a, b, c = input().split()
+    a, b, c = int(a), int(b), int(c)
 
-cc=max(a,b,c)
+    result = max(a, b, c)
+    print(str(result) + ' eh o maior')
 
-print("%d eh o maior"%cc)
+
+if __name__ == '__main__':
+    math()
