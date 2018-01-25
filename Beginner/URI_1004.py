@@ -1,8 +1,7 @@
-
 def math():
     a = int(input())
     b = int(input())
-    result = a * b
+    result = (a * b)
     print('PROD =', result)
 
 
