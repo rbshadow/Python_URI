@@ -1,7 +1,21 @@
-**| URI Problem Solution + Python 3 |**
-=======================================
-Happy Cr4ck!ng !!!
+# URI Programming Problem Solution with Python 3
 
-Happy C0d!ng !!!
+## Getting Started
 
-Happy H4ck!ng !!!
+Here I have shared my URI Programming Problem Solution solved with Python 3+.
+
+### Prerequisites
+
+Python 3+ (Latest version is preferred always)
+## Contribution
+
+You are always welcome to contribute your code.
+
+## Authors
+
+* **Md. Nazrul Islam Ridoy** - *Initial work* - [rbshadow](https://github.com/rbshadow)
+
+See also the list of [contributors](https://github.com/rbshadow/Python_URI/graphs/contributors) who participated in this project.
+
+
+
