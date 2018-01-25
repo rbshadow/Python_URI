@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Here I have shared my URI Programming Problem Solution solved with Python 3+.
+Here I have shared my URI Programming Problems Solution solved with Python 3+.
 
 ### Prerequisites
 
