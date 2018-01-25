@@ -1,5 +1,9 @@
-a = int(input())
-b = int(input())
-c=a+b
+def math():
+    a = int(input())
+    b = int(input())
+    c = a + b
+    print("X =", c)
 
-print ("X = %d"%c)
+
+if __name__ == '__main__':
+    math()

@@ -1,10 +1,12 @@
-a=int(input())
-b=int(input())
-c=int(input())
-d=int(input())
+def math():
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    d = int(input())
 
-cat=a*b
-bat=c*d
-final=cat-bat
+    result = (a*b - c*d)
+    print('DIFERENCA =', result)
 
-print("DIFERENCA =",final)
+
+if __name__ == '__main__':
+    math()

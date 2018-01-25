@@ -1,11 +1,16 @@
-x,y,z = input().split()
-x,y,z = int(x),int(y),float(z)
+def math():
+    a, b, c = input().split()
+    d, e, f = input().split()
 
-x1,y1,z1 = input().split()
-x1,y1,z1 = int(x1),int(y1),float(z1)
+    update_a, update_b, update_c = int(a), int(b), float(c)
+    update_d, update_e, update_f = int(d), int(e), float(f)
 
-grand = y * z
-grand2 = y1 * z1
+    result_1 = update_b * update_c
+    result_2 = update_e * update_f
+    final_result = (result_1 + result_2).__format__('.2f')
 
-tgrand = grand + grand2
-print("VALOR A PAGAR: R$ %.2f" %tgrand)
+    print('VALOR A PAGAR: R$', final_result)
+
+
+if __name__ == '__main__':
+    math()

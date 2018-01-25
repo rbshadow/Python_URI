@@ -1,8 +1,16 @@
 import math
 
-x1,y1=map(float,input().split())
-x2,y2=map(float,input().split())
 
-formula=math.sqrt(((x2-x1)**2)+((y2-y1)**2))
+def solve():
+    a, b = map(float, input().split())
+    c, d = map(float, input().split())
 
-print("%.4f"%formula)
+    power0 = c - a
+    power1 = d - b
+
+    result = (math.sqrt(pow(power0, 2) + pow(power1, 2))).__format__('.4f')
+    print(result)
+
+
+if __name__ == '__main__':
+    solve()

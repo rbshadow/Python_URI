@@ -1,7 +1,10 @@
-a=int(input())
-b=int(input())
-final=(b/12)*a
+def math():
+    time = int(input())
+    speed = int(input())
 
-print("%.3f"%final)
+    result = (time * (speed / 12)).__format__('.3f')
+    print(result)
 
 
+if __name__ == '__main__':
+    math()

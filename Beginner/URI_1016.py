@@ -1,4 +1,10 @@
-inp=int(input())
+def math():
+    a = int(input())
 
-final=inp*2
-print("%d minutos"%final)
+    result = (a * 2)
+
+    print(str(result) + " minutos")
+
+
+if __name__ == '__main__':
+    math()

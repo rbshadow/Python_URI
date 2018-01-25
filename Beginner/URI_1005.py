@@ -1,6 +1,13 @@
-a=float(input())
-b=float(input())
-aa=a*3.5
-bb=b*7.5
-final=round((aa+bb)/(3.5+7.5),5)
-print("MEDIA = %.5f"%final)
+def math():
+    a = float(input())
+    b = float(input())
+
+    update_a = a * 3.5
+    update_b = b * 7.5
+
+    result = ((update_a + update_b) / (3.5+7.5)).__format__('.5f')
+    print('MEDIA =', result)
+
+
+if __name__ == '__main__':
+    math()
