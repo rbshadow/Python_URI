@@ -1,8 +1,8 @@
-# URI Programming Problem Solution with Python 3
+# URI Programming Problems Solution with Python 3
 
 ## Getting Started
 
-Here I have shared my URI Programming Problem Solution solved with Python 3+.
+Here I have shared my URI Programming Problems Solution solved with Python 3+.
 
 ### Prerequisites
 
